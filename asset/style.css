@@ -81,55 +81,55 @@
   .news .n1{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n1.jpeg");
+    background-image: url("img/n1.jpeg");
     background-size: contain;
   }
   .news .n2{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n2.jpeg");
+    background-image: url("img/n2.jpeg");
     background-size: contain;
   }
   .news .n3{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n3.jpeg");
+    background-image: url("img/n3.jpeg");
     background-size:contain;
   }
   .news .n4{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n4.jpeg");
+    background-image: url("img/n4.jpeg");
     background-size: contain;
   }
   .news .n5{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n5.jpeg");
+    background-image: url("img/n5.jpeg");
     background-size: contain;
   }
   .news .n6{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n6.jpeg");
+    background-image: url("img/n6.jpeg");
     background-size: contain;
   }
   .news .n7{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n7.jpeg");
+    background-image: url("img/n7.jpeg");
     background-size: contain;
   }
   .news .n8{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n8.jpg");
+    background-image: url("img/n8.jpg");
     background-size: contain;
   }
   .news .n9{
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url("/asset/img/n9.webp");
+    background-image: url("img/n9.webp");
     background-size: contain;
   }
  
