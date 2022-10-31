@@ -52,7 +52,7 @@
   0%   {background-color:var(--bg);}
   25%  {background-color:#b7d2ec9b;}
   50%  {background-color:#b3f3d395;}
-  75%   {background-color:var(--bg);}
+  75%  {background-color:var(--bg);}
   90%  {background-color:#b7d2ec8f;}
   100% {background-color: var(--bg);}
 }
@@ -106,7 +106,6 @@
     font-size: 17px;
     text-align: justify;
     color: var(--text);
-    /* padding: auto; */
     margin: 15px;
 }
 #footer {
@@ -117,4 +116,10 @@
     color: var(--white);
     font-size: 1vw;
     height: 3vw;
+  }
+  @media only screen and (max-width: 600px) {
+    nav{
+      background-color: var(--text);
+      color: var(--white);
+    }
   }
