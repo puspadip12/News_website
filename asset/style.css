@@ -1,30 +1,25 @@
-:root{
-    --bg: #fff5e5;
-    --nbg: #7cd5ff;
-    --skyblue: #3678C2;
-    --white: #ffffff;
-    --headingbg: #1084a5;
-    --text: #012038;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
+
+:root{
+  --bg: #fff5e5;
+  --nbg: #7cd5ff;
+  --skyblue: #3678C2;
+  --white: #ffffff;
+  --headingbg: #1084a5;
+  --text: #012038;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
-
   }
   nav{
     display: flex;
-    flex-wrap: wrap;
-    font-size: 8vw;
-    width: 100%;
-    background: var(--white);
     justify-content: center;
-    margin: 30px 0 5px 0;
+    font-size: 8vw;
     color: var(--text);
   }
   marquee{
@@ -32,7 +27,6 @@
     flex-wrap: wrap;
     background-color: var(--headingbg);
     height: 5vw;
-    direction:"left";
     align-items: center;
     margin: 10px 0 10px 0;
   }
@@ -42,133 +36,85 @@
   font-family: 'Lora', serif;
   padding: auto;
 }
-  .container{
+.container{
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: space-around;
     max-width: 1400px;
-    height: auto;
     background-color: var(--bg);
     border-radius: 5px 5px 5px 5px;
-    margin: auto;
     animation-name: newsbackground;
     animation-duration: 5s;
     animation-iteration-count:infinite;
-  }
-  @keyframes newsbackground {
-    0%   {background-color:var(--bg);}
-    25%  {background-color:#b7d2ec9b;}
-    50%  {background-color:#b3f3d395;}
-    75%   {background-color:var(--bg);}
-    90%  {background-color:#b7d2ec8f;}
-    100% {background-color: var(--bg);}
-  }
-
-  .news{
+}
+@keyframes newsbackground {
+  0%   {background-color:var(--bg);}
+  25%  {background-color:#b7d2ec9b;}
+  50%  {background-color:#b3f3d395;}
+  75%   {background-color:var(--bg);}
+  90%  {background-color:#b7d2ec8f;}
+  100% {background-color: var(--bg);}
+}
+#newsitems{
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+.news{
     width: 380px;
     background-color: var(--white);
     border-radius: 15px 15px 15px 15px;
     margin: 30px;
-  }
-  .news:hover{
+}
+.news:hover{
     border: 1px;
     border-color: var(--skyblue);
     border-style: solid;
     background-color: var(--nbg);
-  }
-  .news .n1{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n1.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n2{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n2.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n3{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n3.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n4{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n4.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n5{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n5.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n6{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n6.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n7{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n7.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n8{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n8.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .news .n9{
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url("img/n9.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
- 
-  .news .news_text{
+}
+.news .n1{
+  background-image: url("img/n1.jpeg");
+}
+.news .n2{
+  background-image: url("img/n2.jpeg");
+}
+.news .n3{
+  background-image: url("img/n3.jpeg");
+}
+.news .n4{
+  background-image: url("img/n4.jpeg");
+}
+.news .n5{
+  background-image: url("img/n5.jpeg");
+}
+.news .n6{
+  background-image: url("img/n6.jpeg");
+}
+.news .n7{
+  background-image: url("img/n7.jpeg");
+}
+.news .n8{
+  background-image: url("img/n8.jpg");
+}
+.news .n9{
+  background-image: url("img/n9.webp");
+}
+.news .news_text{
     font-size: 17px;
     text-align: justify;
     color: var(--text);
-    font-family: 'EB Garamond', serif;
-    padding: auto;
+    /* padding: auto; */
     margin: 15px;
 }
-
-  #footer {
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: var(--headingbg);
-    color: #000000;
     color: var(--white);
-    font-size: 18px;
-    text-align: center;
-    height: 50px;
-    margin: 10px 0 10px 0;
-    padding: 10px;
+    font-size: 1vw;
+    height: 3vw;
   }
-  
-
-
-  
